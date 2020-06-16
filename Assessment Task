@@ -1,4 +1,4 @@
-You are to develop a Java console application using the NetBeans 8.2 IDE. 
+You are to develop a Java console application using the NetBeans IDE. 
 The application is to calculate and classify MAP (Mean Arterial Pressure) 
 for a randomised subset of individuals in a clinical trial. The number of 
 individuals in the subset is not fixed, but will be in the range 5-10.
