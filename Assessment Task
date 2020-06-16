@@ -1,0 +1,13 @@
+You are to develop a Java console application using the NetBeans 8.2 IDE. The application is to calculate and classify MAP (Mean Arterial Pressure) for a randomised subset of individuals in a clinical trial. The number of individuals in the subset is not fixed, but will be in the range 5-10.
+MAP is determined from an individual’s blood pressure using the following formula:
+MAP = 1.0/3.0 * SBP + 2.0/3.0 * DBP
+where
+•	MAP is the mean arterial pressure,
+•	SBP is the systolic blood pressure, and
+•	DBP is the diastolic blood pressure.
+Normal blood pressure for a healthy adult is typically between 90 mmHg and 120 mmHg for systolic blood pressure and between 60 mmHg and 80 for diastolic blood pressure. The normal mean arterial pressure in healthy patients should be in the range of between 70 and 100 mmHg.
+For each person in the trial, you are to enter their identifier, together with their SBP (in mmHg) and DBP (in mmHg). SBP is always greater than DBP; if this is not the case, an error message is to be displayed and no processing is to be performed for that particular record. The identifier is an integer in the range 1-100. Blood pressures are to be stored in variables of type double. The application is to then calculate and display the trial identifier and the MAP value, together with a message indicating whether the MAP value is high, normal or low. When all data has been entered, a summary report consisting of 
+1.	The lowest MAP value
+2.	The highest MAP value
+3.	The average MAP value
+is to be displayed. Values are to be displayed to one decimal place, e.g. 10.1, NOT 10.123456789.
